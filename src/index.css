@@ -1,0 +1,135 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "outfit";
+}
+.icon{
+    font-size: 20px;
+}
+.screen-container{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: rgba(223, 217, 217, 0.100);
+    background-blend-mode: color-burn ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    width: fit-content;
+    position: relative;
+    /* border: 0.5px solid #fff; */
+    border-radius: 7px;
+    box-shadow: 1px 0.5px 2px #ffffffc9;
+}
+.menu{
+    font-size: 25px;
+}
+.new-chat{
+    background-color: #00000044;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 10vw;
+    justify-content: center;
+    height: 35px;
+    border-radius: 50px;
+    margin: 20px 20px;
+    
+}
+.new-chat:hover{
+    background-color:#2e2d2d56;
+}
+
+.recent{
+    margin-left: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;    
+    /* width: 20vw; */
+    /* overflow: hidden; */
+}
+.recent-para {
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    width:max-content;
+    font-weight: 600;
+    margin-bottom: 20PX;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.option{
+    display: flex;
+    background-color: #00000000;
+    align-items: center;
+    gap: 5px;
+   
+    /* width: 14vw; */
+    padding: 5px;
+    border-radius: 50px
+    ;
+}
+.option:hover{
+    background-color:#1e1d1dbd;
+}
+.container-1{
+    width: 86vw;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+}
+.content{
+    height: 500px;
+}
+.searchbox{
+    padding: 10px;
+    width: 35vw;
+    margin: auto;
+}
+.searchbox button:hover{
+    color: #a3a2a2ca;
+}
+
+.result{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    overflow:scroll;
+    text-align:start;
+    margin-top: 10px;
+    height: 650px;
+    
+}
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+/* this is result */
+.subheadind{
+    color: white;
+    font-size:20px;
+}
+.normaltext{
+    padding-left:30px;
+}
+.firsttext{
+    font-size: large;
+    padding-left: 30px;
+}
